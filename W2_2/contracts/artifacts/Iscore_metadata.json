@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "student",
+						"type": "address"
+					},
+					{
+						"internalType": "uint8",
+						"name": "score",
+						"type": "uint8"
+					}
+				],
+				"name": "modifyScore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Score.sol": "IScore"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Score.sol": {
+			"keccak256": "0x8c9e7146d60d07cf8250100cc9b15f6ced31714af8d3b689f89bb52a9d4695f9",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://fdb874769969c12bed9c6f582ed3cf4e2bf96bdaefa16a353570752bf328517c",
+				"dweb:/ipfs/QmYN65M9JVxZkoiEFcupCFd6CimimcBkE6S8ivTgNijgvL"
+			]
+		}
+	},
+	"version": 1
+}
