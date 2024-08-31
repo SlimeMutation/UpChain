@@ -1,0 +1,16 @@
+{
+    "title": "测试NFT",
+    "description": "测试使用",
+    "image": "ipfs://QmPZWq25a46cPbJxzeQcoUjP97KQjt6eQjPup5LbBqBSxj",
+    "attributes": [
+        {
+            "trait_type": "属性1",
+            "value": "1"
+        },
+        {
+            "trait_type": "属性2",
+            "value": "2"
+        }
+    ],
+    "version": "1"
+}
