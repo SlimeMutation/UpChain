@@ -8,6 +8,6 @@ contract MyToken is Initializable, ERC20Upgradeable {
 
     function initialize(string memory name, string memory symbol, uint256 initialSupply) public initializer {
         __ERC20_init(name, symbol);
-        _mint(msg.sender, initialSupply);
+        _mint(msg.sender, initialSupply* 10 ** 18);
     }
 }

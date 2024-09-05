@@ -2,7 +2,7 @@
 async function main() {
   const { ethers, upgrades } = require("hardhat");
 
-  const existingProxyAddress = '0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0';
+  const existingProxyAddress = '0xB6f64daFC2A7a035237bF76357Ff9714992D9a50';
   const MyERC20V2 = await ethers.getContractFactory("MyTokenV2");
   console.log("Upgrading to MyERC20V2...");
   const myERC20 = await upgrades.upgradeProxy(existingProxyAddress, MyERC20V2);
